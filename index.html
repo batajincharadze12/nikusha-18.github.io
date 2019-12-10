@@ -1,12 +1,29 @@
 <html>
  <head>
    <style>
+     .button{
+         position:absolute;
+         top: 50%;
+         left:50%;
+         transform: translate(-50% ,-50%);
+         z-index:4 ;
+     }
+     .btn{
+       border:3px solid rgb(0, 0, 0);
+       padding:10px 30px;
+       color:rgb(0, 0, 0);
+       text-decoration:none;
+       transition: 0.5s ease;
+     }
+     .btn:hover {
+          background-color: black;
+          color:white; 
+          z-index: ;
+
+     }
     body{
         font-family: Verdana,sans-serif;
-        color: wheat;
-        background-image: url();
-        background-repeat: no-repeat;
-        image-resolution:;
+    
       }
         ul{
           
@@ -50,14 +67,31 @@
             position: fixed;
             top:0%;
             left: 0%;
+            z-index: 2;
 
 }
-    
+
+.bottomAnim {
+  
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2851A6 url("http://i.stack.imgur.com/spmUM.gif") left repeat-x;
+  background-size: auto 65%;
+  background-position: bottom;
+  z-index: 1;
+}
+  
+
+}
     </style>
  </head>
       
    <body>  
-<link href="style.css" rel="stylesheet">
+      <div class="bottomAnim"></div>
 <div class="box">
 <ul>
   <li><a href="https://nikusha-18.github.io/">HOME</a></li> 
@@ -91,59 +125,9 @@
 
 </ul>
 </div>
-<p>a<br>a<br>
-a<br>
-a<br>a<br>a<br>a<br>
-a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
+           <div class="button">
+              <a class="btn" href="https://ok.ru/ertianisaqartvelo/topics">NAXET ES</a>
 
-a<br>
-a<br>a<br>
-
-
-
-
-
-a<br>
-a<br>a<br>
-a<br>
-a<br>
-a<br>
-a<br>
-a<br>
-
-a<br>
-
-a<br>
-a<br>
-a<br>
-a<br>
-
-
-a<br>a<br>
-
-a<br>a<br>
-
-a<br>a<br>
-
-a<br>
-a<br>
-a<br>
-a<br>
-
-a<br>
-
-a<br>
-a<br>
-a<br>
-a<br>
-a<br>
-a<br>
-a<br>
-
-a<br>
-
-a<br>
-a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
-</p>
+           </div>
 </body>
 </html>
